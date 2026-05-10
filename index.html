@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Input Validation Form | Abraham Aigbokhan </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Title section -->
+    <div class="title">Input Validation Form</div>
+    <div class="content">
+      <!-- Registration form -->
+      <form action="#">
+        <div class="user-details">
+          <!-- Input for Full Name -->
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" min="2" placeholder="Enter your full name" required>
+          </div>
+          <!-- Input for Email Address -->
+          <div class="input-box">
+            <span class="details">Email Address</span>
+            <input type="text" placeholder="Enter your email address" required>
+          </div>
+          <!-- Input for Password -->
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required>
+          </div>
+          <!-- Input for Confirm Password -->
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required>
+          </div>
+          <!-- Input for Age -->
+          <div class="input-box">
+            <span class="details">Age</span>
+            <input type="number" placeholder="Enter your age" required>
+          </div>
+        </div>
+        <!-- Submit button -->
+        <div class="button">
+          <input type="submit" value="Validate">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js">
+
+
+  </script>
+</body>
+</html>
